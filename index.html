@@ -19,23 +19,23 @@
   <!-- navbar section start -->
     <nav class="navbar navbar-expand-lg fw-bold">
   <div class="container">
-    <a class="navbar-brand text-white" href="#">Home</a>
+    <a class="navbar-brand text-white" href="#hero-section">Home</a>
     <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+          <a class="nav-link active text-white" aria-current="page" href="#about-me">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Skills</a>
+          <a class="nav-link text-white" href="#skill-section">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Projects</a>
+          <a class="nav-link text-white" href="#project-section">Projects</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Contact</a>
+          <a class="nav-link text-white" href="#contact-section">Contact</a>
         </li> 
       </ul>
       <form class="d-flex" role="search">
@@ -49,9 +49,9 @@
 
     <!-- hero section start -->
 
-    <div class="container-fluid d-flex bg-primary" style="height: 440px;">
+    <div class="container-fluid d-flex bg-primary" style="height:400px;" id="hero-section">
 
-      <div class="card-content w-50 d-flex align-items-center justify-content-center">
+      <div class="card-content w-75 d-flex align-items-center justify-content-center">
         <div class="content w-75 h-50 ">
           <h3 class="mb-3 text-white">Hello my name:</h3>
           <h1 class="mb-3 fw-bold neon-text">Gayathri Vishnu</h1>
@@ -70,15 +70,15 @@
 
     <!-- about me section start -->
 
-    <div class="container-fluid mt-2">
+    <div class="container-fluid mt-4" id="about-me">
       <h2 class="text-primary text-center fw-bold">About Me</h2>
 
-      <div class="card mb-3 container">
+      <div class="mb-3 container">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="./images/aboutme.jpeg" class="img-fluid rounded-start" alt="...">
+      <img src="./images/aboutme.jpeg" class="w-100" alt="...">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 px-2">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -89,5 +89,99 @@
 </div>
     </div>
     <!-- about me section end -->
+
+    <!-- skills section start -->
+
+    <div class="container" id="skill-section">
+      <h3 class="text-center fw-bold text-primary my-5">MySkills</h3>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <div class="d-flex justify-content-between">
+            <p>html</p>
+            <p>25%</p>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Success-example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%;"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 mb-4">
+          <div class="d-flex justify-content-between">
+            <p>Css</p>
+            <p>65%</p>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Success-example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 65%;"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 mb-4">
+          <div class="d-flex justify-content-between">
+            <p>Mysql</p>
+            <p>50%</p>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Success-example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 75%;"></div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- end skill section -->
+
+    <!-- my project section start -->
+
+    <div class="container" id="project-section">
+      <h3 class="text-center text-primary my-5 fw-bold">MyProjects</h3>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project1.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project2.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project3.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project4.jpeg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project5.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 my-3">
+          <img class="w-100" src="./images/project6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end myproject section -->
+
+    <!-- contact me section -->
+
+    <div class="container mb-5" id="contact-section">
+      <h3 class="text-center text-primary my-5 fw-bold">Contact Me</h3>
+      <form action="" class="border rounded p-3">
+        <div class="mb-3">
+          <label for="">Enter Phone Number</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="">Enter Message</label>
+          <textarea name="" id="" class="form-control"></textarea>
+        </div>
+        <div class="mb-3 text-center">
+          <button type="submit" class="btn btn-primary">Send Email</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- end contact me -->
+
+    <!-- footer section start -->
+     <footer class="bg-primary text-white text-center p-5">
+      <h4>gayathriajish15@gmail.com copy@2k26</h4>
+     </footer>
+
+     <!-- end footer -->
 </body>
 </html>
